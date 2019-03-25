@@ -1,0 +1,2 @@
+pyenv install
+pyenv versions

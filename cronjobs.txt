@@ -1,0 +1,2 @@
+# Update brew and brew
+0 9 * * *  brew update && brew upgrade --all && brew cleanup
