@@ -1,16 +1,16 @@
 #!/bin/sh
 
-. brew.sh
+# . brew.sh
 
 # brew components
 
-for $brewsh in `ls brew-*.sh`
+for brewsh in `ls brew-*.sh`
 do
     echo "${brewsh}..."
     . ${brewsh}
 done
 
-for $langsh in `ls *-lang.sh`
+for langsh in `ls *-lang.sh`
 do
     echo "${langsh}..."
     . ${langsh}

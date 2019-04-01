@@ -6,8 +6,10 @@ brew install jq
 brew install re2
 
 #
-brew swi-prolog
-brew gnuplot
+brew install swi-prolog
+brew install gnuplot
 
 # Machine learning
-brew tesseract
+brew install tesseract
+brew install tesseract-lang
+
