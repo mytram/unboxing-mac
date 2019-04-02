@@ -1,5 +1,10 @@
 #!/bin/sh
 
+brew install rbenv
+brew install ruby-build
+
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc_brew
+
 COMMAND='rbenv'
 VERSION=`${COMMAND} install -l | grep -v '[a-z]' | tail -n 1`
 
