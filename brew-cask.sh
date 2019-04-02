@@ -3,6 +3,8 @@
 brew tap caskroom/cask
 brew tap caskroom/fonts
 
+brew cask install macpass
+
 # GUI Diff Tools
 brew cask install p4v
 
