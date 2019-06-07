@@ -4,7 +4,7 @@ xcode-select --install
 
 BREWCMD=`which brew`
 
-if [ -e ${BREWCMD} ]
+if [ -e "${BREWCMD}" ]
 then
     brew update && brew upgrade
 else
@@ -13,8 +13,14 @@ else
 fi
 
 echo 'Add the following in your .bashrc'
-echo '. ~/.bashrc_brew'
->> ~/.bashrc_brew
+
+if [ -e "~/.bashrc_brew" ]
+then
+    echo '. ~/.bashrc_brew'
+    >> ~/.bashrc_brew
+else
+    > ~/.bashrc_brew
+fi
 
 # Basic
 brew install wget     \
