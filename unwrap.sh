@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# . brew.sh
+. brew.sh
 
 # brew components
 
@@ -17,6 +17,10 @@ do
 done
 
 . git.sh
+
+. docker.sh
+. kubernetes.sh
+. gcloud.sh
 
 . gitlab.sh
 
