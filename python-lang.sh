@@ -1,6 +1,8 @@
 #!/bin/sh
 
+brew install zlib
 brew install pyenv
+
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc_brew
 
 COMMAND='pyenv'
@@ -11,3 +13,7 @@ ${COMMAND} versions
 
 ${COMMAND} global ${VERSION}
 ${COMMAND} rehash
+
+brew install pyenv-virtualenv
+
+echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.bashrc_brew

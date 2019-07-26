@@ -28,9 +28,10 @@ brew cask install skitch
 # Communications
 brew cask install slack skype wechat
 
-# 
+#
 brew cask install font-ubuntu-mono-derivative-powerline
 
 #
 brew cask install iterm2
 
+brew cask install krita # drawing
