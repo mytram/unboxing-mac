@@ -16,4 +16,9 @@ ${COMMAND} rehash
 
 brew install pyenv-virtualenv
 
+pip install scipy
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+
 echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.bashrc_brew
