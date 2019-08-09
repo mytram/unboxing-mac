@@ -30,5 +30,3 @@ crontab ./cronjobs.txt
 
 mkdir -p ~/sp ~/wp ~/heroku ~/gitlab ~/github ~/tmp
 
-# Manually download
-echo "Download fontbase"

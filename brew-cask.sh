@@ -9,7 +9,9 @@ brew cask install macpass
 brew cask install p4v
 
 # Browser War
-brew cask install google-chrome firefox
+brew cask install google-chrome
+
+brew cask install firefox
 
 brew cask install caskroom/versions/google-chrome-canary
 

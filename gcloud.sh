@@ -23,3 +23,4 @@ gcloud compute project-info add-metadata --metadata google-compute-default-regio
 # https://cloud.google.com/container-registry/docs/advanced-authentication
 docker-credential-gcr configure-docker
 docker-credential-gcr gcr-login
+

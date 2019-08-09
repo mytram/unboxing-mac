@@ -3,3 +3,4 @@
 brew install kubernetes-cli
 
 brew install kubectx
+
