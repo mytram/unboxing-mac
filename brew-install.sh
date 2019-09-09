@@ -9,6 +9,8 @@ brew install pandoc
 brew install jq
 brew install re2
 brew install ssh-copy-id
+brew install w3m
+brew install datamash
 
 # Terminals
 

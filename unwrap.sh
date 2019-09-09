@@ -29,4 +29,3 @@ crontab ./cronjobs.txt
 # echo create directories
 
 mkdir -p ~/sp ~/wp ~/heroku ~/gitlab ~/github ~/tmp
-

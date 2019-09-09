@@ -20,5 +20,6 @@ pip install scipy
 pip install pandas
 pip install matplotlib
 pip install scikit-learn
+pip install xgboost
 
 echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.bashrc_brew

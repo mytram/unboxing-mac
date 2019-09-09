@@ -29,5 +29,4 @@ brew install wget     \
              curl
 
 # Heroku
-brew install heroku
-
+brew tap heroku/brew && brew install heroku

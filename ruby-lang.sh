@@ -20,5 +20,6 @@ gem install cowsay
 gem install ruby_parser # User for feature-mode in emacs
 gem install pry
 gem install rubocop
+gem install jekyll
 
 ${COMMAND} rehash
