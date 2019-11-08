@@ -31,7 +31,8 @@ brew cask install skitch
 brew cask install slack skype wechat
 
 # fonts
-brew cask install font-ubuntu-mono-derivative-powerline font-fira-mono-for-powerline
+brew cask install homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline
+brew cask install homebrew/cask-fonts/font-fira-mono-for-powerline
 
 #
 brew cask install iterm2
