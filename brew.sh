@@ -14,13 +14,7 @@ fi
 
 echo 'Add the following in your .bashrc'
 
-if [ -e "~/.bashrc_brew" ]
-then
-    echo '. ~/.bashrc_brew'
-    >> ~/.bashrc_brew
-else
-    > ~/.bashrc_brew
-fi
+cat ./bashrc_brew >> ~/.bashrc_brew
 
 # Basic
 brew install wget     \

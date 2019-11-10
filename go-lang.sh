@@ -1,7 +1,7 @@
 #!/bin/sh
 
 brew install goenv
-echo 'eval "$(goenv init -)"' >> ~/.bash_brew
+echo 'eval "$(goenv init -)"' >> ~/.bashrc_brew
 
 COMMAND='goenv'
 

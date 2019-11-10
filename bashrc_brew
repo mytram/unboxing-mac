@@ -1,0 +1,7 @@
+# Template file
+#
+
+export PS1="\W $"
+export PATH=$PATH:~/bin
+
+eval "$(ssh-agent -s)"
