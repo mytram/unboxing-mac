@@ -1,7 +1,7 @@
 #!/bin/sh
 
-brew tap caskroom/cask
-brew tap caskroom/fonts
+brew tap homebrew/cask-cask
+brew tap homebrew/cask-fonts
 
 brew cask install macpass
 
@@ -13,7 +13,7 @@ brew cask install google-chrome
 
 brew cask install firefox
 
-brew cask install caskroom/versions/google-chrome-canary
+brew cask install homebrew/cask-cask/google-chrome-canary
 
 # Media player
 brew cask install vlc spotify
@@ -37,8 +37,10 @@ brew cask install homebrew/cask-fonts/font-source-code-pro-for-powerline
 
 #
 brew cask install iterm2
-brew cask install alacritty
+# brew cask install alacritty
 
 brew cask install krita # drawing
 
-brew cask install mactex
+# brew cask install mactex
+
+brew cask install zoomus

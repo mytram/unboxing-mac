@@ -15,10 +15,10 @@ brew install datamash
 # Terminals
 
 brew install tmux tmux-mem-cup-load
-brew install screen
+# brew install screen
 
 brew install gnuplot
 
 # Machine learning
-brew install tesseract
-brew install tesseract-lang
+# brew install tesseract
+# brew install tesseract-lang
