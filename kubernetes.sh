@@ -4,8 +4,8 @@ brew install kubernetes-cli
 
 brew install kubectx
 
-echo 'source <(kubectl completion bash)' >> ~/.bashrc_brew
-echo 'alias k=kubectl'                   >> ~/.bashrc_brew
-echo 'complete -F __start_kubectl k'     >> ~/.bashrc_brew
+echo 'source <(kubectl completion bash)' >> ~/.brewrc
+echo 'alias k=kubectl'                   >> ~/.brewrc
+echo 'complete -F __start_kubectl k'     >> ~/.brewrc
 
 brew install helm

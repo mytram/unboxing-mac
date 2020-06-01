@@ -1,17 +1,5 @@
 #!/bin/sh
 
-brew install git
-brew install bash-git-prompt
-
-cat <<EOF >> ~/.bashrc_brew
-
-if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
-    source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
-fi
-
-EOF
-
 # Common aliases
 git config --global alias.co checkout
 git config --global alias.br branch

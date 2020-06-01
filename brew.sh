@@ -1,26 +1,18 @@
 #!/usr/bin/env sh
 
-xcode-select --install
-
 BREWCMD=`which brew`
 
-if [ -e "${BREWCMD}" ]
-then
-    brew update && brew upgrade
-else
-    echo "Install brew ... this will prompt for sudo"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+echo "Install brew ... this will prompt for sudo"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-echo 'Add the following in your .bashrc'
+echo "Turn off brew analytics"
+brew analytics off
 
-cat ./bashrc_brew >> ~/.bashrc_brew
+brew update > /dev/null
+brew upgrade > /dev/null
 
-# Basic
-brew install wget     \
-             openssl  \
-             readline \
-             curl
+echo 'Create your .brewrc'
 
-# Heroku
-brew tap heroku/brew && brew install heroku
+cat ./brewrc >> ~/.brewrc
+
+brew bundle

@@ -1,14 +1,8 @@
 #!/bin/sh
 
+xcode-select --install
+
 . brew.sh
-
-# brew components
-
-for brewsh in `ls brew-*.sh`
-do
-    echo "${brewsh}..."
-    . ${brewsh}
-done
 
 for langsh in `ls *-lang.sh`
 do
@@ -16,15 +10,14 @@ do
     . ${langsh}
 done
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 . git.sh
 
-. docker.sh
-. kubernetes.sh
-. gcloud.sh
+# . kubernetes.sh
+# . gcloud.sh
 
-. gitlab.sh
-
-crontab ./cronjobs.txt
+# crontab ./cronjobs.txt
 
 # echo create directories
 
