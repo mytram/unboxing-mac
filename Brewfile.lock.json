@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "34e1feac0881c259c6d8e7e0c0ba1215036a1b8c"
+        "revision": "2348bfc16991749749fd1ec472cebd7c17b6124c"
       }
     },
     "brew": {
@@ -458,6 +458,31 @@
             }
           }
         }
+      },
+      "nvm": {
+        "version": "0.35.3",
+        "bottle": false
+      },
+      "prettier": {
+        "version": "2.0.5",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/prettier-2.0.5.catalina.bottle.tar.gz",
+              "sha256": "b1e20fc9be32da04ea3a5d5dbb4153a4589689a2ec5c1a696b0ae01d4c77422b"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/prettier-2.0.5.mojave.bottle.tar.gz",
+              "sha256": "527a6b93bded9ee87b89d8fbb9b9116fcb5e93924e85189630754acf48565efa"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/prettier-2.0.5.high_sierra.bottle.tar.gz",
+              "sha256": "26a0d0f1879743b66781123895941cb849b38a636be3213dd0dd2ed0b2685250"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -658,6 +683,15 @@
             "appdir": "~/Applications"
           }
         }
+      },
+      "private-internet-access": {
+        "version": "2.1-04977",
+        "options": {
+          "full_name": "private-internet-access",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
       }
     }
   },
@@ -666,7 +700,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.3.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1cf1e61165b0260c11849b18a846002ce45b36ce",
+        "Homebrew/homebrew-core": "db86b7bca999083c0943c41b017074f983cd3e3c",
         "CLT": "1103.0.32.62",
         "Xcode": "11.4.1",
         "macOS": "10.15.5"

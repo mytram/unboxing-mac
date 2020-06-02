@@ -39,6 +39,11 @@ brew "rbenv"
 brew "ruby-build"
 brew "rust"
 brew "goenv"
+brew "nvm"
+
+# Development tools
+
+brew "prettier"
 
 # Terminals
 
@@ -54,6 +59,7 @@ brew "tmux"
 # brew "tesseract"
 # brew "tesseract-lang"
 
+
 cask "emacs"
 
 cask "macpass"
@@ -62,6 +68,7 @@ cask "macpass"
 cask "p4v"
 
 # Browser War
+
 cask "google-chrome"
 cask "firefox"
 cask "firefox-developer-edition"
@@ -101,6 +108,9 @@ cask "font-source-code-pro-for-powerline"
 
 #
 cask "iterm2"
+
+# Misc
+cask "private-internet-access"
 
 # drawing
 # cask "krita"
