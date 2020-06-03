@@ -1,6 +1,7 @@
 cask_args appdir: "~/Applications"
 
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 brew "wget"
 brew "openssl"
@@ -59,21 +60,22 @@ brew "tmux"
 # brew "tesseract"
 # brew "tesseract-lang"
 
-
 cask "emacs"
 
 cask "macpass"
 
 # GUI Diff Tools
-cask "p4v"
+# cask "p4v"
 
 # Browser War
 
 cask "google-chrome"
 cask "firefox"
+cask "brave-browser"
+
+# For development use
 cask "firefox-developer-edition"
 cask "google-chrome-canary"
-cask "brave-browser"
 
 # Development
 
@@ -86,7 +88,7 @@ cask "spotify"
 # Mysql GUI client
 # cask "sequel-pro"
 # cask "mysqlworkbench"
-# cask "dbeaver-community"
+# cask "dbeaver-community" # require jdk
 
 # eReader
 cask "calibre"
@@ -105,6 +107,7 @@ cask "whatsapp"
 cask "font-ubuntu-mono-derivative-powerline"
 cask "font-fira-mono-for-powerline"
 cask "font-source-code-pro-for-powerline"
+cask "font-hack-nerd-font"
 
 #
 cask "iterm2"
