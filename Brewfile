@@ -1,19 +1,13 @@
-cask_args appdir: "~/Applications"
-
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-
 brew "wget"
 brew "openssl"
 brew "readline"
 brew "curl"
-
 brew "git"
+
+# Finally I am converted
 brew "zsh"
 
-# brew "bash-git-prompt"
-
-brew "vim"
+# brew "vim"
 
 brew "aspell"
 brew "tree"
@@ -24,14 +18,13 @@ brew "re2"
 brew "ssh-copy-id"
 brew "w3m"
 brew "datamash"
+brew "zlib"
 
 brew "heroku"
 
 brew "postgres"
 
-brew "zlib"
-
-# languages
+# Languages
 
 brew "swi-prolog"
 brew "pyenv"
@@ -46,25 +39,28 @@ brew "nvm"
 
 brew "prettier"
 
-# Terminals
-
+# Tools
 brew "tmux"
 # brew "tmux-mem-cup-load"
-
 # brew "screen"
-
 # brew "gnuplot"
 
 # Machine learning
-
 # brew "tesseract"
 # brew "tesseract-lang"
 
+cask_args appdir: "~/Applications"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
 cask "emacs"
 
+# Passord manager
 cask "macpass"
+cask "bitwarden"
 
 # GUI Diff Tools
+# outdated offline comparison tools 
 # cask "p4v"
 
 # Browser War
@@ -72,20 +68,21 @@ cask "macpass"
 cask "google-chrome"
 cask "firefox"
 cask "brave-browser"
+cask "microsoft-edge"
 
 # For development use
 cask "firefox-developer-edition"
 cask "google-chrome-canary"
 
-# Development
-
+# Development tools
 cask "docker"
+cask "iterm2"
 
 # Media player
 cask "vlc"
 cask "spotify"
 
-# Mysql GUI client
+# Database GUI client
 # cask "sequel-pro"
 # cask "mysqlworkbench"
 # cask "dbeaver-community" # require jdk
@@ -102,15 +99,13 @@ cask "skype"
 cask "wechat"
 cask "zoomus"
 cask "whatsapp"
+cask "loom"
 
 # fonts
-cask "font-ubuntu-mono-derivative-powerline"
-cask "font-fira-mono-for-powerline"
-cask "font-source-code-pro-for-powerline"
 cask "font-hack-nerd-font"
+cask "font-meslolg-nerd-font"
 
 #
-cask "iterm2"
 
 # Misc
 cask "private-internet-access"
@@ -119,4 +114,8 @@ cask "private-internet-access"
 # cask "krita"
 
 # cask "mactex"
+
+# Fun
+# emoji
+cask "rocket"
 

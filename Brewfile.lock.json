@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "042ff2427261c4c6e63e8932613da080b39ee4a2"
+        "revision": "d5c2aa7fd893b909c4c8f1c741e2ecb82a47d45b"
       },
       "homebrew/cask-fonts": {
-        "revision": "66f4fa5bf8ecb33f5c8221484fe5ff7854bc91e5"
+        "revision": "f4b55455cdd8d1d2ea9f56edee74aff89c2b6a0d"
       }
     },
     "brew": {
@@ -116,22 +116,22 @@
         }
       },
       "vim": {
-        "version": "8.2.0850_1",
+        "version": "8.2.0900",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0850_1.catalina.bottle.tar.gz",
-              "sha256": "ef2f4d32899d7c3ce31fae5f81c1506cc2a78b05dcf950e60b52ee0e249f585f"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0900.catalina.bottle.tar.gz",
+              "sha256": "67001930f2d2823a3e35f7f467cfc99225e7e32dce9c1946deeac51719148604"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0850_1.mojave.bottle.tar.gz",
-              "sha256": "42ed44a364934441ad851b9b46935bf2b0064719d2d2146c59397740a6b6c3bd"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0900.mojave.bottle.tar.gz",
+              "sha256": "17ff122262e5097cba9afb4a276a2a7b62197b7210aecd03f083ebb42c1b4a4a"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0850_1.high_sierra.bottle.tar.gz",
-              "sha256": "56568806bab989f2655313731fa36952565c04292e8d328f50b290d9edbb3161"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0900.high_sierra.bottle.tar.gz",
+              "sha256": "e0a220f5990873f30ef114e187738d2fb73a8bd8f972e16405fb0a4b5a21339b"
             }
           }
         }
@@ -304,7 +304,7 @@
         }
       },
       "heroku": {
-        "version": "7.41.1",
+        "version": "7.42.1",
         "bottle": false
       },
       "postgres": null,
@@ -589,7 +589,7 @@
         }
       },
       "calibre": {
-        "version": "4.17.0",
+        "version": "4.18.0",
         "options": {
           "full_name": "calibre",
           "args": {
@@ -713,6 +713,51 @@
             "appdir": "~/Applications"
           }
         }
+      },
+      "loom": {
+        "version": "0.37.3",
+        "options": {
+          "full_name": "loom",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "microsoft-edge": {
+        "version": "83.0.478.45",
+        "options": {
+          "full_name": "microsoft-edge",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "bitwarden": {
+        "version": "1.18.0",
+        "options": {
+          "full_name": "bitwarden",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "rocket": {
+        "version": "1.7.4,69",
+        "options": {
+          "full_name": "rocket",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "font-meslolg-nerd-font": {
+        "version": "2.1.0",
+        "options": {
+          "full_name": "font-meslolg-nerd-font",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
       }
     }
   },
@@ -721,7 +766,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.3.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "bc2f3461c23cba67c573997a82a92313d0423750",
+        "Homebrew/homebrew-core": "fccee477ee0b26412dd68028d52a245abaa3248f",
         "CLT": "1103.0.32.62",
         "Xcode": "11.4.1",
         "macOS": "10.15.5"
