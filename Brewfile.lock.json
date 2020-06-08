@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "d5c2aa7fd893b909c4c8f1c741e2ecb82a47d45b"
+        "revision": "546620e924317376a9deb0d39300692d2510833d"
       },
       "homebrew/cask-fonts": {
         "revision": "f4b55455cdd8d1d2ea9f56edee74aff89c2b6a0d"
@@ -758,6 +758,51 @@
             "appdir": "~/Applications"
           }
         }
+      },
+      "notion": {
+        "version": "2.0.7",
+        "options": {
+          "full_name": "notion",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "github": {
+        "version": "2.5.2-41e70ee4",
+        "options": {
+          "full_name": "github",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "1password": {
+        "version": "7.5",
+        "options": {
+          "full_name": "1password",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "1password-cli": {
+        "version": "1.0.0",
+        "options": {
+          "full_name": "1password-cli",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "dropbox": {
+        "version": "latest",
+        "options": {
+          "full_name": "dropbox",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
       }
     }
   },
@@ -766,9 +811,9 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.3.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "fccee477ee0b26412dd68028d52a245abaa3248f",
+        "Homebrew/homebrew-core": "488dc9475b1bba0b3ba12efbfa49e79f89ad9a7a",
         "CLT": "1103.0.32.62",
-        "Xcode": "11.4.1",
+        "Xcode": "11.5",
         "macOS": "10.15.5"
       }
     }

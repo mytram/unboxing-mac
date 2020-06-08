@@ -36,7 +36,6 @@ brew "goenv"
 brew "nvm"
 
 # Development tools
-
 brew "prettier"
 
 # Tools
@@ -49,22 +48,29 @@ brew "tmux"
 # brew "tesseract"
 # brew "tesseract-lang"
 
+# 
+# Cask
+#
 cask_args appdir: "~/Applications"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 cask "emacs"
+cask "notion"
+
+cask "dropbox"
 
 # Passord manager
-cask "macpass"
+# cask "macpass"
 cask "bitwarden"
+cask "1password"
+cask "1password-cli"
 
 # GUI Diff Tools
 # outdated offline comparison tools 
 # cask "p4v"
 
 # Browser War
-
 cask "google-chrome"
 cask "firefox"
 cask "brave-browser"
@@ -90,6 +96,9 @@ cask "spotify"
 # eReader
 cask "calibre"
 
+# github Desktop tool
+cask "github"
+
 # Screenshot app
 cask "skitch"
 
@@ -105,8 +114,6 @@ cask "loom"
 cask "font-hack-nerd-font"
 cask "font-meslolg-nerd-font"
 
-#
-
 # Misc
 cask "private-internet-access"
 
@@ -118,4 +125,3 @@ cask "private-internet-access"
 # Fun
 # emoji
 cask "rocket"
-
