@@ -1,3 +1,4 @@
+# 
 brew "wget"
 brew "openssl"
 brew "readline"
@@ -41,8 +42,7 @@ brew "prettier"
 # Tools
 brew "tmux"
 # brew "tmux-mem-cup-load"
-# brew "screen"
-# brew "gnuplot"
+brew "gnuplot"
 
 # Machine learning
 # brew "tesseract"
@@ -57,7 +57,6 @@ tap "homebrew/cask-fonts"
 
 cask "emacs"
 cask "notion"
-
 cask "dropbox"
 
 # Passord manager
@@ -83,6 +82,7 @@ cask "google-chrome-canary"
 # Development tools
 cask "docker"
 cask "iterm2"
+cask "postman"
 
 # Media player
 cask "vlc"
@@ -91,7 +91,8 @@ cask "spotify"
 # Database GUI client
 # cask "sequel-pro"
 # cask "mysqlworkbench"
-# cask "dbeaver-community" # require jdk
+cask "dbeaver-community" # require jdk
+cask "adoptopenjdk"
 
 # eReader
 cask "calibre"

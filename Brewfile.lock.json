@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "546620e924317376a9deb0d39300692d2510833d"
+        "revision": "b8354ea39f623310bedc8a0cd3d1e90fe2dd25df"
       },
       "homebrew/cask-fonts": {
-        "revision": "f4b55455cdd8d1d2ea9f56edee74aff89c2b6a0d"
+        "revision": "4002bfa454011d0bb83f8897637055bbe5f9550a"
       }
     },
     "brew": {
@@ -363,22 +363,22 @@
         }
       },
       "pyenv": {
-        "version": "1.2.18",
+        "version": "1.2.19",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.18.catalina.bottle.tar.gz",
-              "sha256": "bd9f719f153e9574dcc65dc7fea28a3816557bd46b0ff90ad8de43f3f8dc72c4"
+              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.19.catalina.bottle.tar.gz",
+              "sha256": "4090a7f985abe855d3725014be8c6922008d98ff2f5ff10983637b6a4ed3bb59"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.18.mojave.bottle.tar.gz",
-              "sha256": "05f0414ec85ad0eb46a4046d9bee6da318b2b68fd9b64b11875cb2457ac808ec"
+              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.19.mojave.bottle.tar.gz",
+              "sha256": "f537513011bf038e306282adce8c65e18dcbcc0a486106819bca019e746fc257"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.18.high_sierra.bottle.tar.gz",
-              "sha256": "e789844a5fc1efd1e53a60d87032b279823933cb1a79839fb67dd34a9fd7e96a"
+              "url": "https://homebrew.bintray.com/bottles/pyenv-1.2.19.high_sierra.bottle.tar.gz",
+              "sha256": "5066a95f9ab62623f012d4930171e41cbd1fef9be916c661dc6817c20ed5f97c"
             }
           }
         }
@@ -417,22 +417,22 @@
         "bottle": false
       },
       "rust": {
-        "version": "1.43.1",
+        "version": "1.44.0",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.43.1.catalina.bottle.tar.gz",
-              "sha256": "ed2a0f6af491d1f7c9733cd32f0518281bc9bcb5f418e62c3fefd582a0f66b2f"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.44.0.catalina.bottle.tar.gz",
+              "sha256": "352e3e4b03c90419a139eca2cc2628e99e827e5ca4550268f88e8b76f2cf692e"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.43.1.mojave.bottle.tar.gz",
-              "sha256": "53dff98ebf7561798da4c21af2bbe49ccdb6da3c66a45b667031c67432c9e65a"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.44.0.mojave.bottle.tar.gz",
+              "sha256": "08a95ea4ccea36f0a18e24eeec71eed018be229b835c8c3ef959e6340f853842"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/rust-1.43.1.high_sierra.bottle.tar.gz",
-              "sha256": "f93422b8fa5616fb2cfba7bdf755c0e57892cbb26ee0276794aabfbde110e7e6"
+              "url": "https://homebrew.bintray.com/bottles/rust-1.44.0.high_sierra.bottle.tar.gz",
+              "sha256": "e7388208f60bc2bd2615b50f377c43647da1f952fa899bcdfdba7821543d2a76"
             }
           }
         }
@@ -589,7 +589,7 @@
         }
       },
       "calibre": {
-        "version": "4.18.0",
+        "version": "4.19.0",
         "options": {
           "full_name": "calibre",
           "args": {
@@ -787,7 +787,7 @@
         }
       },
       "1password-cli": {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "options": {
           "full_name": "1password-cli",
           "args": {
@@ -803,15 +803,24 @@
             "appdir": "~/Applications"
           }
         }
+      },
+      "adoptopenjdk": {
+        "version": "14.0.1,7",
+        "options": {
+          "full_name": "adoptopenjdk",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.3.0",
+        "HOMEBREW_VERSION": "2.4.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "488dc9475b1bba0b3ba12efbfa49e79f89ad9a7a",
+        "Homebrew/homebrew-core": "2e08f6b59b3bcbd3c4929a18aa4ce67f81a6276c",
         "CLT": "1103.0.32.62",
         "Xcode": "11.5",
         "macOS": "10.15.5"
