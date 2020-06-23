@@ -56,6 +56,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 cask "emacs"
+cask "visual-studio-code"
 cask "notion"
 cask "dropbox"
 
@@ -113,6 +114,7 @@ cask "loom"
 
 # fonts
 cask "font-hack-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "font-meslolg-nerd-font"
 
 # Misc
