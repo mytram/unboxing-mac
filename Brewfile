@@ -37,7 +37,8 @@ brew "goenv"
 brew "nvm"
 
 # Development tools
-brew "prettier"
+# brew "prettier" # should always use the one in node_module 
+brew "gh"
 
 # Tools
 brew "tmux"
