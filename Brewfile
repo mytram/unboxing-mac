@@ -1,10 +1,9 @@
-# 
+# Basic
 brew 'wget'
 brew 'openssl'
 brew 'readline'
 brew 'curl'
 brew 'git'
-
 
 # Finally I am converted
 brew 'zsh'
@@ -25,6 +24,10 @@ brew 'zlib'
 # brew 'heroku'
 
 # brew 'postgres'
+
+# For emacs
+brew 'coreutils'
+brew 'fd'
 
 # Languages
 
@@ -50,9 +53,8 @@ brew 'gnuplot'
 # brew 'tesseract'
 # brew 'tesseract-lang'
 
-# 
 # Cask
-#
+
 cask_args appdir: '~/Applications'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -85,7 +87,7 @@ cask 'google-chrome-canary'
 # Development tools
 cask 'docker'
 cask 'iterm2'
-cask 'postman'
+# cask 'postman'
 
 # Media player
 cask 'vlc'
@@ -101,7 +103,7 @@ cask 'spotify'
 cask 'calibre'
 
 # github Desktop tool
-cask 'github'
+# cask 'github'
 
 # Screenshot app
 cask 'skitch'
@@ -109,9 +111,9 @@ cask 'skitch'
 # Communications
 # cask 'slack'
 # cask 'skype'
-cask 'wechat'
+# cask 'wechat'
 # cask 'zoomus'
-cask 'whatsapp'
+# cask 'whatsapp'
 # cask 'loom'
 
 # fonts
@@ -123,9 +125,9 @@ cask 'font-meslolg-nerd-font'
 # cask 'private-internet-access'
 
 # drawing
-cask 'krita'
+# cask 'krita'
 
-cask 'mactex'
+# cask 'mactex'
 
 # Fun
 # emoji
